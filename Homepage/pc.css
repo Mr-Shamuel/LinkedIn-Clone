@@ -1,0 +1,56 @@
+@media screen and (min-width: 1400px) {
+  .left_sidebar .top {
+    width: 100%;
+    background-color: grey;
+
+    position: absolute;
+  }
+  .left_sidebar .profile {
+    gap: 0.2rem;
+    margin-top: 4.5rem;
+  }
+  .left_sidebar .profile a {
+    margin-top: 3rem;
+  }
+  .left_sidebar .top img {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 4.7rem;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  aside .left_sidebar_Discovery {
+    height: 100%;
+  }
+  .left_sidebar_Discovery .top i {
+    left: 85%;
+    position: absolute;
+  }
+  aside .left_sidebar_Discovery {
+    height: auto;
+  }
+
+  main .post {
+    padding-bottom: 7px;
+    height: auto;
+    width: 100%;
+    border-radius: 0.8rem;
+    background-color: #ffffff;
+  }
+  main .newsfeed {
+    margin-top: 0.7rem;
+    height: auto;
+    width: 100%;
+    border-radius: 0.8rem;
+    background-color: #ffffff;
+    padding: 5px 0px;
+  }
+  aside .right_sidebar .top {
+    height: auto;
+    width: 100%;
+    border-radius: 0.8rem;
+    background-color: #ffffff;
+    padding: 1rem;
+  }
+}
